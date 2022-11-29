@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats on Cats on Cats</title>
+  <!-- BootStrap Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+
+  
+  <!-- My CSS -->
+  <link rel="stylesheet" href="cats.css">
+
+  
+
+
+</head>
+<body>
+  <!-- Title -->
+<section id = "title">
+  <div class="title">
+    <h1> Welcome to Cats on Cats</h1>
+    <h2> The only place for primo Cat pics.</h2>
+  </div>
+  
+  <!-- About  -->
+<section id= "about">
+        <p> Have you ever wondered what the darn is a Devon - Rex? <br> Or is a Sphynx really what they call them nakey cats!?!? Well my friend you are about to find out! <br> Simply pick a breed from the drop down menu and click 'Here Kitty Kitty!' and we'll show you what that cat looks like. <br> If cat breeds aren't your jam you can filter by CAT-egories (see what I did there...) and click 'Cat-egorise Me!' <br> Can't be bothered by any of that?! Click 'Purrfection'and you'll get a ranomly generated cat picture. 
+        </p>
+
+  <!-- Dropdown Menu  -->
+
+<div id="dropdown">
+<select id="catBreeds">
+<option>Select a Breed</option>
+</select>
+<button class="hereKitty">Here Kitty Kitty!</button>
+<br>
+<select id="cat-egory">
+  <option> Select a Cat-egory</option> 
+</select>
+<button class="category"> Cat-egorise Me!</button>
+<br> <button class="randomiser"> Purrfection!</button>
+</div>
+<img src="" alt="" class="catImage">
+</section>
+  <!-- Testimonials -->
+
+  <section id = "testimonials">
+  
+    <h2 id="test-head">Check out these testimonials from our satisfied users!</h2>
+    <hr>
+    <div id="testimonial-carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3 class="testimonial-text">Before this site you'd have to spend years in school becoming a cat-ologist, learning all the breeds. Now you can learn all the breeds in an afternoon! .</h3>
+          <img class="testimonial-image" src="terror.png" alt="terror">
+          <em>Dale, Squamish CA</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial-text">I used to spend hours locked in my room googling cats so I could learn the breed names, thanks to Cats on Cats I now use that time singing to my bust of Chewbacca.</h3>
+          <img class="testimonial-image" src="mugatu.png" alt="lady-profile">
+          <em>Betsy, London UK</em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="testimonial-text"> I used to argue with my family with what each breed was; Cats on Cats on Cats has allowed me to prove that I'm right! Which in turn helps feed my false sense of superiority.</h3>
+          <img class="testimonial-image" src="zzmod.png" alt="Zam-Zaddy">
+          <em>Tron Aukland NZ</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- My JS -->
+  <script src="cats.js"></script>
+
+</body>
+<footer>
+  © Val Bustros @ House Of MacBust Projects 2022
+</footer>
+</html>
